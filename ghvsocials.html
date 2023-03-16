@@ -137,6 +137,12 @@
         <span class="icon"><i class="fab fa-youtube"></i></span>
       </div>
       <!-- End youtube Icon -->
+      
+      <!-- Start Google Maps Icon -->
+      <div id="google-maps" onclick="navigate(this.id)" class="social google-maps">
+        <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+      </div>
+      <!-- End Google Maps Icon -->
 
 
     </div>
@@ -161,6 +167,9 @@
         }
         else if (id === "whatsapp") {
           window.open('https://api.whatsapp.com/send?phone=9867650566', '_blank').focus(); //Add the url to WhatsApp Number
+        }
+        else if (id === "google-maps") {
+          window.open('https://goo.gl/maps/72rZGjHtLdqWWGaF7', '_blank').focus(); //Add the url to WhatsApp Number
         }
       }
 
